@@ -1,5 +1,13 @@
 .container {
+  padding: 0.2em;
+}
+
+.container.grid {
   width: 50%;
+}
+
+.container.list {
+  width: 100%;
 }
 
 .video {
@@ -8,6 +16,7 @@
   border: 1px solid white;
   cursor: pointer;
   transition: transform 300ms ease-in;
+  height: 100%;
 }
 
 .video:hover {
